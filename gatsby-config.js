@@ -1,16 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Node.js (TypeScript) API',
+    title: 'The Soda Stop',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Gatsby + Node.js (TypeScript) API',
-        short_name: 'Gatsby + Node.js (TypeScript)',
+        name: 'The Soda Stop',
+        short_name: 'sodastop',
         start_url: '/',
-        icon: 'src/images/gatsby-icon.png',
+        icon: 'src/images/sodastop.png',
       },
     },
   ],
