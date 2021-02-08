@@ -21,6 +21,7 @@ function Index() {
         <title>The Soda Stop</title>
         <script type="text/javascript" id="mcjs">{`!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/6c225a264532c289522f4f7e3/3e475057d5b411abc57dfa680.js");
 `}</script>
+        <script type="text/javascript">{`!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/6c225a264532c289522f4f7e3/1f6ec179eee2fad16e693eb79.js"`}</script>
       </Helmet>
     <div > <img style={{maxWidth: "90%"}} src={Logo} alt="The Soda Shop Carrizo Springs Logo" title="The Soda Shop"/></div>
       <h1>The Soda Stop is coming soon!</h1>
