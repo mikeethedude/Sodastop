@@ -27,7 +27,7 @@ function Index() {
       </h2>
       <section className="footer">
         <footer>
-           <img src={Social} height="30"/>
+           <a href="https://www.facebook.com/TheSodaStopCarrizoSprings" target="_blank"><img src={Social} height="30"/></a>
         </footer>
       </section>
     </main>
