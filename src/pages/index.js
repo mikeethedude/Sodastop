@@ -20,7 +20,7 @@ function Index() {
       <Helmet>
         <title>The Soda Stop</title>
       </Helmet>
-    <div > <img src={Logo} alt="The Soda Shop Carrizo Springs Logo" title="The Soda Shop"/></div>
+    <div > <img style={{maxWidth: "90%"}} src={Logo} alt="The Soda Shop Carrizo Springs Logo" title="The Soda Shop"/></div>
       <h1>The Soda Stop is coming soon!</h1>
       <h2>
         Pouring into Carrizo Springs and surrounding areas this spring.
