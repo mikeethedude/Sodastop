@@ -20,14 +20,14 @@ function Index() {
       <Helmet>
         <title>The Soda Stop</title>
       </Helmet>
-    <div > <img src={Logo} /></div>
+    <div > <img src={Logo} alt="The Soda Shop Carrizo Springs Logo" title="The Soda Shop"/></div>
       <h1>The Soda Stop is coming soon!</h1>
       <h2>
         Pouring into Carrizo Springs and surrounding areas this spring.
       </h2>
       <section className="footer">
         <footer>
-           <a href="https://www.facebook.com/TheSodaStopCarrizoSprings" target="_blank"><img src={Social} height="30"/></a>
+           <a rel="noreferrer" href="https://www.facebook.com/TheSodaStopCarrizoSprings" target="_blank"><img alt="Facebook Icon" title="Visit our Facebook page for more information." src={Social} height="30"/></a>
         </footer>
       </section>
     </main>
