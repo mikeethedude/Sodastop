@@ -14,18 +14,12 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          {
-            family: `Shrikhand`,
-            variants: [`400`]
-          },
-          {
-            family: `Open Sans`,
-            variants: [`400`, `700`]
-          },
+           `Shrikhand`,
         ],
+        display: 'swap'
       },
     }
   ],

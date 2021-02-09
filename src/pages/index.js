@@ -3,30 +3,10 @@ import { Helmet } from 'react-helmet';
 import '../styles/index.css';
 import Logo from '../images/sodastop.png';
 import Social from '../images/124010.svg';
-import anime from 'animejs/lib/anime.es.js';
+import Bubbles from "../components/bubbles";
 
 function Index() {
-  const colors = [
-      '#FF52b4',
-      '#1ed5c3',
-      '#ee8aa8',
-      '#cb6ce6'
-  ];
-  anime({
-    targets: '.bubble',
-    translateY: function() {
-      const variety = anime.random(50, 300);
-      return -window.innerHeight - variety;
-    },
-    loop: true,
-    easing: 'easeInOutQuad',
-    delay: anime.stagger([10, 1010]),
-    scale: anime.stagger([.5, 1.15]),
-    loopComplete: function (anim) {
-      const option = anime.random(0,4);
-      anime.set('.bubble', {color: colors[Math.floor(option)]})
-    }
-  });
+
 
   return (
     <main>
@@ -52,11 +32,8 @@ function Index() {
       <footer>
          <a rel="noreferrer" href="https://www.facebook.com/TheSodaStopCarrizoSprings" target="_blank"><img alt="Facebook Icon" title="Visit our Facebook page for more information." src={Social} height="30"/></a>
       </footer>
-      <div className={"bubblewrap"}>
-        {[...Array(12)].map((k) => (
-            <div key={k} className={'bubble'} style={{left: (Math.random() % 2) * 100 + "%"}}></div>
-        ))}
-      </div>
+      <Bubbles />
+
     </main>
   );
 }
