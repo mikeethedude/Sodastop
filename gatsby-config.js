@@ -13,5 +13,20 @@ module.exports = {
         icon: 'src/images/sodastop.png',
       },
     },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Shrikhand`,
+            variants: [`400`]
+          },
+          {
+            family: `Open Sans`,
+            variants: [`400`, `700`]
+          },
+        ],
+      },
+    }
   ],
 };
