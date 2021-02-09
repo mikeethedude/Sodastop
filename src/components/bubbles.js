@@ -3,7 +3,7 @@ import anime from 'animejs/lib/anime.es.js'
 
 class Bubbles extends React.Component {
 
-  componentDidUpdate(prevProps, prevState, snapshot) {
+  componentDidMount() {
     const colors = [
       '#FF52b4',
       '#1ed5c3',
@@ -30,7 +30,7 @@ class Bubbles extends React.Component {
   render() {
     return (
         <div className={"bubblewrap"}>
-          {[...Array(12)].map((k) => (
+          {[...Array(14)].map((k) => (
               <div key={k} className={'bubble'} style={{left: (Math.random() % 2) * 100 + "%"}}></div>
           ))}
         </div>
